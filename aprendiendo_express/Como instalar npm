@@ -1,0 +1,17 @@
+Como instalar npm:
+
+en la consola:
+
+- cd (nombre de la carpeta donde se quiere utilizar express)
+- npm init
+- Ahora pide que se le coloque un nombre, si se le da enter toma como nombre el nombre del archivo donde se guardará, yo agregue apre_express. recuerde que si su capeta se llama express no lo va a dejar instalarlo porque se muestra un conflicto con los nombres.
+- Luego se le pide la version que desean tener, puede agregar 0.0.1 como version del proyecto.
+- Ahora le pide una descripción del proyecto, le puede agregar cualquier descripción, yo agregue , Aprendiendo con Express
+- Luego le pide un nombre que se le va a asignar al servidor, por defecto viene index.js yo le voy a agregar el nombre app.js
+- Ahora test command y git repository se pueden quedar vacios
+- Luego en keywords se pueden poner palabras relacionadas con el proyecto, en este caso yo lo dejé vacio
+- En autor pueden escribir el que desee en este caso yo escribí mi nombre.
+- Ahora le aparece licencia y ahí solo se le da enter y se muestra un resumen, o como se llama el package json, de lo que acaba de configurar, si está de acuerdo escribe la palabra yes si no vuelve a pedir otra ves todos los datos mencionados anteriormente.
+
+- Al final se escribe el siguiente comando.
+-npm install express --save
